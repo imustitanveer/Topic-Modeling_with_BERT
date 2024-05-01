@@ -16,7 +16,7 @@ The repository contains a web application made with streamlit, that takes tweets
 BERT is fine-tuned on the tweets dataset and then re-tuned further on a [Text Document Classification Dataset](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset?rvi=1). This allows BERT to accurately analyze tweets and provide contextual understanding and topic modeling. 
 
 ### Fine-Tuned Model
-The Fine-tuned BERT model can be found on this [Google Drive Directory](https://drive.google.com/drive/folders/1q_KS0_P2OVmkikK8A4TnnsaniAC5Zkqq?usp=sharing) for anyone to use. 
+The Fine-tuned BERT model can be found on this [Google Drive Directory]([https://drive.google.com/drive/folders/1q_KS0_P2OVmkikK8A4TnnsaniAC5Zkqq?usp=sharing](https://colab.research.google.com/drive/12TllzTVc7stiuXvefhN5TmHZuDyOAIk5?usp=sharing)) for anyone to use. 
 
 ### Evaluation
 The performance of fine-tuned BERT is evaluated using a semantic similarity test. The test involves comparing the semantic similarity of BERT embeddings with LDA embeddings for a set of tweets from the evaluation dataset. K-means clustering is also used to analyze how the models identify topics and their coherence.
